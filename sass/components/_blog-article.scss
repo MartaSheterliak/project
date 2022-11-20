@@ -1,34 +1,36 @@
 .blog-article {
     background-color: #01383A;
-    background-image: url(./images/blog-article-bg-mobile_1x.jpg);
+    background-image: url(../images/blog-article-bg-mobile_1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-wrap: 1;
+    height: auto;
     @include retina {
   .box {
-    background-image: url(./images/blog-article-bg-mobile_2x.jpg);
+    background-image: url(../images/blog-article-bg-mobile_2x.jpg);
   }
 }
     @include tablet {
-      background-image: url(./images/blog-article-bg-tablet_1x.jpg);
+      background-image: url(../images/blog-article-bg-tablet_1x.jpg);
       @include retina {
       .box {
-        background-image: url(./images/blog-article-bg-tablet_2x.jpg);
+        background-image: url(../images/blog-article-bg-tablet_2x.jpg);
       }
     }
   }
     @include desktop {
-      background-image: url(./images/blog-article-bg-desctop_1x.jpg);
+      background-image: url(../images/blog-article-bg-desctop_1x.jpg);
       @include retina {
       .box {
-        background-image: url(./images/blog-article-bg-desctop_2x.jpg);
+        background-image: url(../images/blog-article-bg-desctop_2x.jpg);
       }
     }
   }
 }
 
 .blog-article__container {
+    padding-top: 40px;
     width: 100%;
     @include tablet {
     width: 768px;
@@ -39,13 +41,18 @@
 }
 
 .blog-article__top-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     margin-bottom: 31px;
-    @include font(600, 24px, 1.16);
+    padding-left: 16px;
+    padding-right: 16px;
+    @include font(600, 24px, 1.16, null);
     @include tablet {
-      @include font(600, 56px, 1.00);
+      @include font(600, 56px, 1.00, null);
     }
     @include desktop {
-      @include font(600, 56px, 1.00);
+      @include font(600, 56px, 1.00, null);
     }
     text-align: center;
     color: #FFFFFF;
@@ -64,95 +71,95 @@
     box-shadow: 0px 4px 25px rgba(40, 120, 13, 0.25);
   }
 
-  .top-info {
+//  .top-info {
 
-  }
+//  }
 
-  .top-text {
+//  .top-text {
 
-  }
+//  }
 
   .top-text__title {
-    @include font(600, 16px, 1.00);
+    @include font(600, 16px, 1.00, null);
     color: #FFFFFF;
     margin-bottom: 8px;
     @include tablet {
-      @include font(600, 24px, 1.00);
+      @include font(600, 24px, 1.00, null);
       color: #86E543;
       margin-bottom: 32px;
     }
     @include desktop {
-      @include font(600, 24px, 1.00);
+      @include font(600, 24px, 1.00, null);
       color: #86E543;
       margin-bottom: 24px;
     }
   }
 
   .top-text__date {
-    @include font(600, 16px, 1.00);
+    @include font(600, 16px, 1.00, null);
     color: #8D9289;
     margin-bottom: 8px;
     @include tablet {
-        @include font(600, 24px, 1.00);
+        @include font(600, 24px, 1.00, null);
         color: #8D9289;
         margin-bottom: 16px;
       }
     @include desktop {
-        @include font(600, 24px, 1.00);
+        @include font(600, 24px, 1.00, null);
         color: #8D9289;
         margin-bottom: 24px;
       }
   }
 
   .top-text-list__text {
-    @include font(400, 16px, 1.14);
+    @include font(400, 16px, 1.14, null);
     color: #FFFFFF;
     @include tablet {
-        @include font(600, 24px, 1.16);
+        @include font(600, 24px, 1.16, null);
       } 
     @include desktop {
-        @include font(600, 24px, 1.16);
+        @include font(600, 24px, 1.16, null);
       }   
   }
 
-  .checklist {
+//  .checklist {
 
-  }
+//  }
 
   .checklist__top-text {
-    @include font(400, 16px, 1.14);
+    @include font(400, 16px, 1.14, null);
     color: #FFFFFF;
     @include tablet {
-        @include font(600, 24px, 1.16);
+        @include font(600, 24px, 1.16, null);
         color: #86E543;
       } 
   }
 
-  .checklist-list {
+//  .checklist-list {
 
-  }
+//  }
 
   .checklist-list__item {
-    @include font(400, 16px, 1.14);
+    @include font(400, 16px, 1.14, null);
     color: #FFFFFF;
     @include tablet {
-      @include font(400, 24px, 1.17);
+      @include font(400, 24px, 1.17, null);
       color: #86E543;
     }
     @include tablet {
-      @include font(400, 24px, 1.17);
+      @include font(400, 24px, 1.17, null);
       color: #86E543;
     }
   }
 
   .checklist__text {
-    @include font(400, 16px, 1.14);
+    @include font(400, 16px, 1.14, null);
     color: #FFFFFF;
     @include tablet {
-        @include font(600, 24px, 1.16);
+        @include font(600, 24px, 1.16, null);
       } 
     @include desktop {
-        @include font(600, 24px, 1.16);
+        @include font(600, 24px, 1.16, null);
       } 
   }
 
