@@ -1,28 +1,28 @@
 .blog-article {
     background-color: #01383A;
-    background-image: url(../images/blog-article-bg-mobile_1x.jpg);
+    background-image: url(./images/blog-article-bg-mobile_1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-wrap: 1;
     @include retina {
   .box {
-    background-image: url(../images/blog-article-bg-mobile_2x.jpg);
+    background-image: url(./images/blog-article-bg-mobile_2x.jpg);
   }
 }
     @include tablet {
-      background-image: url(../images/blog-article-bg-tablet_1x.jpg);
+      background-image: url(./images/blog-article-bg-tablet_1x.jpg);
       @include retina {
       .box {
-        background-image: url(../images/blog-article-bg-tablet_2x.jpg);
+        background-image: url(./images/blog-article-bg-tablet_2x.jpg);
       }
     }
   }
     @include desktop {
-      background-image: url(../images/blog-article-bg-desctop_1x.jpg);
+      background-image: url(./images/blog-article-bg-desctop_1x.jpg);
       @include retina {
       .box {
-        background-image: url(../images/blog-article-bg-desctop_2x.jpg);
+        background-image: url(./images/blog-article-bg-desctop_2x.jpg);
       }
     }
   }
@@ -34,7 +34,7 @@
     width: 768px;
     }
     @include desktop {
-    width: 1200px;
+    width: 1280px;
     }    
 }
 

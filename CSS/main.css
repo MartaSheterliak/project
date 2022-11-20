@@ -1,12 +1,11 @@
-:root {
-  --top-title-color: #212121;
-  --top-text-color: #757575;
-  --top-adress-color: #2196f3;
-  --top-ht: 1.14;
-  --top-footer-text: rgba(255, 255, 255, 0.6);
-  --footer-text-color: #ffffff;
-  --top-btn-color: #ffffff;
-}
+/*$main-font: 'Roboto', sans-serif;
+$secondary-font: 'Roboto Condensed', sans-serif;
+$accent-font: 'Open Sans', sans-serif;
+$main-font-color: #ffffff;
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+$main-bg-color: #01383a;*/
 
 p,
 h1,
