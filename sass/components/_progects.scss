@@ -1,0 +1,100 @@
+.progects {
+    padding: 94px 0;
+  }
+  
+  .progects-filtr {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 34px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .progects-item {
+    @include font(500, 16px, 1.62, 0.03em);
+    text-align: center;
+    color: var(--top-title-color);
+  }
+  
+  .progects-list-content {
+    border-width: 0 0 1px 0;
+    border-color: #EEEEEE;
+  }    
+  
+  .progects-list {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .progects-list-item {
+    width: calc((100% - 60px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus
+    {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+  
+  .progects-top-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progects-top-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    @include font(400, 18px, 1.56, 0.03em);
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .progects-list-item:hover & {
+      transform: translateY(0);
+    }
+  }
+  
+  .progects-item-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px 24px;
+    border-left: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+  }
+  
+  .progects-title {
+    @include font(700, 18px, 2, 0.06em);
+    color: var(--top-title-color);
+    margin-bottom: 4px;
+  }
+  
+  .progects-text {
+    @include font(400, 16px, 1.88, 0.03em);
+    color: var(--top-text-color);
+  }
+  
+  .progects-hero-btn {
+    border: none;
+    font-family: inherit;
+    @include font(500, 16px, 1.62, 0.03em);
+    text-align: center;
+    color: var(--top-title-color);
+    padding: 6px 22px;
+    border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--top-btn-color);
+    background-color: var(--top-adress-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+  }
+  

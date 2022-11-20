@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: var(--top-title-color);
+  }
+  
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
